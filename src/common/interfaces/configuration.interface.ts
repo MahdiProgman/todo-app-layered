@@ -4,9 +4,9 @@ export interface Configuration {
 }
 
 export interface DatabaseConfig {
-  type: string;
+  type: 'mysql' | 'mariadb';
   host: string;
-  port: string;
+  port: number;
   username: string;
   password: string;
   database: string;

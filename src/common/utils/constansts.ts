@@ -1,3 +1,4 @@
 export enum Services {
   CONFIG_SERVICE = 'CONFIG_SERVICE',
+  DATA_SOURCE = 'DATA_SOURCE',
 }
